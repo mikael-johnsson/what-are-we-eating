@@ -1,12 +1,28 @@
 
+/*COLOR PALETTE*/
+/* CSS HEX
+--imperial-red: #f23642ff; - RED (background)
+--violet-jtc: #542644ff; - PLUM (text)
+--saffron: #e4c139ff; - YELLOW (logos and borders)
+--tiffany-blue: #94d0c2ff; LIGHT BLUE ()
+--periwinkle: #ddd3f5ff; LIGHT PURPLE ()
+*/
+
+
+
+
+
 
 
 /*body*/
+body {
+    color: #542644ff;
+}
 
 /*header*/
 header {
     display: flex;
-    background-color: aquamarine;
+    background-color: #F5666F;
     height: 25vh;
     padding-left: 40px;
 }
@@ -14,7 +30,6 @@ header {
 
 h1 {
     font-size: 2.5em;
-    height: 100%;
     align-self: center;
     margin: 0;
     text-align: center;
