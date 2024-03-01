@@ -29,6 +29,7 @@ header {
 
 
 h1 {
+    flex-basis: 40%;
     font-size: 2.5em;
     align-self: center;
     margin: 0;
@@ -124,3 +125,5 @@ h2 {
 #recipe-section {
     background-color: #ddd3f5ff;
 }
+
+/*For tablets*/
