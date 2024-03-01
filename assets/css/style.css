@@ -64,18 +64,23 @@ a {
 /*LANDING PAGE*/
 
 #landing-section {
+    height: 580px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     height: 65vh;
     margin: 15px 0;
+    padding: 5px 0;
+    background: #e4c139ff;
 }
 
-#landing-img {
-    width: 35vw;
-    height: 35vw;
+#landing-img /*2488x3360px*/ {
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
     position: relative;
     left: 30px;
+
     
 }
 
