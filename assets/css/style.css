@@ -1,0 +1,38 @@
+
+
+
+/*body*/
+
+/*header*/
+header {
+    display: flex;
+    background-color: aquamarine;
+    height: 100px;
+    padding-left: 40px;
+}
+
+h1 {
+    font-size: xxx-large;
+    height: 100%;
+    align-self: baseline;
+    margin: 0;
+    
+
+}
+
+nav {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5em;
+
+    
+
+}
+
+a {
+    list-style: none;
+    font-size: x-large;
+    align
+
+}
