@@ -104,24 +104,30 @@ h2 {
 
 .inspiration-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
     
 
 }
 
+.left-country {
+    
+    margin-left: 15px;
+
+    
+
+}
+
+.right-country {
+    
+    margin-right: 15px;
+    
+}
 
 .inspo-dish img {
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
-}
-
-#italy {
-    align-self: flex-start;
-
-}
-
-#japan {
-    align-self: flex-end;
 }
