@@ -61,6 +61,10 @@ a {
 
 /*MAIN*/
 
+h2 {
+    font-size: xx-large;
+}
+
 /*LANDING PAGE*/
 
 #landing-section {
@@ -77,6 +81,8 @@ a {
 #landing-img /*2488x3360px*/ {
     width: 430px;
     height: 430px;
+    object-fit: cover;
+    object-position: 50% 65%;
     border-radius: 50%;
     position: relative;
     left: 30px;
@@ -86,4 +92,36 @@ a {
 
 #landing-text {
     flex-basis: 30vw;
+}
+
+/*INSPO PAGE*/
+
+#inspo-section {
+    margin: 15px 0;
+    background: #94d0c2ff;
+    
+}
+
+.inspiration-container {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+.inspo-dish img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#italy {
+    align-self: flex-start;
+
+}
+
+#japan {
+    align-self: flex-end;
 }
