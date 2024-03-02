@@ -140,6 +140,18 @@ h2 {
     border-radius: 50%;
 }
 
+/*Newsletter*/
+.newsletter-box {
+    border: solid 2px #542644ff;
+    border-radius: 50%;
+    height: 280px;
+    width: 280px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*For tablets*/
 @media screen and (max-width: 991px ){
 
