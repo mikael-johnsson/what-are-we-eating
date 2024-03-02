@@ -142,8 +142,14 @@ h2 {
 }
 
 .recipe {
+    flex-grow: 1;
     display: flex;
+    justify-content: space-between;
     gap: 15px;
+}
+
+.recipe-steps {
+    width: 250px;
 }
 
 .recipe-image {
