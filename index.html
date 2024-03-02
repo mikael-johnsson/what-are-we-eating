@@ -117,22 +117,23 @@
 
         <!--RECIPE PAGE-->
         <section id="recipe-section">         
-            <h2></h2>
+            <h2>EASY RECIPES</h2>
             <!--RECIPES-->
             <div id="recipe-container">
                 <div class="recipe">
                     <h3>Omelette</h3>
+                    <img src="assets/images/recipe-images/omelette.jpg" alt="A picture of a omelette in a pan." class="recipe-image">
                     <ul class="ingredient-list">
                         <li>3 eggs</li>
                         <li>Oil for the pan</li>
                         <li>Salt and pepper to taste</li>
                     </ul>
                     <p class="recipe-steps">Whisk the eggs. Season with salt and pepper. <br>Fry with oil on medium heat until it's cooked <br>all the way through. Enjoy!</p>
-                    <img src="assets/images/recipe-images/omelette.jpg" alt="A picture of a omelette in a pan." class="recipe-image">
                 </div>
 
                 <div class="recipe">
                     <h3>Pancakes</h3>
+                    <img src="assets/images/recipe-images/pancake.jpg" alt="A picture of a plate full of pancakes." class="recipe-image">
                     <ul class="ingredient-list">
                         <li>1 egg</li>
                         <li>1 dl of flour</li>
@@ -141,11 +142,11 @@
                         <li>Salt</li>
                     </ul>
                     <p class="recipe-steps">Whisk together the egg and milk. <br>Add the flour and whisk it together. <br>Fry in butter on medium heat - <br>1 dl of batter at a time. <br>Serve with jelly or sugar and cinnamon.</p>
-                    <img src="assets/images/recipe-images/pancake.jpg" alt="A picture of a plate full of pancakes." class="recipe-image">
                 </div>
 
                 <div class="recipe">
                     <h3>Greek Salad</h3>
+                    <img src="assets/images/recipe-images/greek-salad.jpg" alt="A picture of a greek salad." class="recipe-image">
                     <ul class="ingredient-list">
                         <li>Tomatoes</li>
                         <li>Cucumber</li>
@@ -155,43 +156,42 @@
                         <li>Salt and pepper</li>
                     </ul>
                     <p class="recipe-steps">Chop all the vegetables to preferred size. <br>Mix the oil with the salt and pepper. <br>Add the vegetables to a bowl and drizzle <br> the oil over it. </p>
-                    <img src="assets/images/recipe-images/greek-salad.jpg" alt="A picture of a greek salad." class="recipe-image">
                 </div>
+                    
+            <!--NEWSLETTER FORM-->
+            <aside class="newsletter-box">
+                <form action="">
+                    <label for="first_name">First Name</label><br>
+                    <input type="text" name="first_name" class="text-box"><br>
 
-                <!--NEWSLETTER FORM-->
-                <div class="newsletter-box">
-                    <form action="">
-                        <label for="first_name">First Name</label><br>
-                        <input type="text" name="first_name" class="text-box"><br>
+                    <label for="last_name">Last Name</label><br>
+                    <input type="text" name="last_name" class="text-box"><br>
 
-                        <label for="last_name">Last Name</label><br>
-                        <input type="text" name="last_name" class="text-box"><br>
+                    <label for="email">Email Address</label><br>
+                    <input type="email" name="email" class="text-box"><br>
 
-                        <label for="email">Email Address</label><br>
-                        <input type="email" name="email" class="text-box"><br>
+                    <label for="dropdown_menu">Favourite cuisine</label><br>
+                    <select name="dropdown_menu" id="dropdown-menu">
+                        <option value="choose">Choose...</option>
+                        <option value="italy">Italian</option>
+                        <option value="japan">Japanese</option>
+                        <option value="lebanon">Lebanese</option>
+                        <option value="mexico">Mexican</option> 
+                    </select><br>
 
-                        <label for="dropdown_menu">Favourite cuisine</label><br>
-                        <select name="dropdown_menu" id="dropdown-menu">
-                            <option value="choose">Choose...</option>
-                            <option value="italy">Italian</option>
-                            <option value="japan">Japanese</option>
-                            <option value="lebanon">Lebanese</option>
-                            <option value="mexico">Mexican</option> 
-                        </select><br>
+                    <input type="submit" value="Submit" id="submit-button">
 
-                        <input type="submit" value="Submit" id="submit-button">
-
-                        <input type="reset" value="Reset" id="reset-button">
-                    </form>
-                </div>
-            </div>
+                    <input type="reset" value="Reset" id="reset-button">
+                </form>
+            </aside>
+        </div>
         </section> <!--end of recipe page-->
 
     </main>
     
     <!--FOOTER-->
     <footer>
-
+        <p>footer test</p>
     </footer>
 </body>
 </html>

@@ -125,12 +125,25 @@ h2 {
 #recipe-section {
     background-color: #ddd3f5ff;
     margin: 15px 0;
+
+}
+
+#recipe-section h2 {
+    text-align: center;
 }
 
 #recipe-container {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 900px;
     gap: 10px;
 
+}
+
+.recipe {
+    display: flex;
+    gap: 15px;
 }
 
 .recipe-image {
@@ -146,10 +159,18 @@ h2 {
     border-radius: 50%;
     height: 280px;
     width: 280px;
+    align-self: flex-end;
+    position: sticky;
+    top: 30px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*footer*/
+footer {
+    height: 1000px;
 }
 
 /*For tablets*/
