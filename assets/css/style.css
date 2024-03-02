@@ -124,6 +124,15 @@ h2 {
 /*RECIPE PAGE*/
 #recipe-section {
     background-color: #ddd3f5ff;
+    margin: 15px 0;
 }
 
 /*For tablets*/
+@media screen and (max-width: 991px ){
+
+}
+
+/*For phones*/
+@media screen and (max-width: 767px) {
+    
+}
