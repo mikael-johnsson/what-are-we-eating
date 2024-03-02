@@ -29,7 +29,7 @@
                 <h2>Are you all out of cooking fantasy?</h2>
                 <p>We are here to help!</p>
                 <p>After a long day at work making decisions, beeing in meetings and completing endless tasks it's not uncommon  to feel absolut hate at the idea of figuring out what to cook for dinner. At this site, you will get all the help you need.</p>
-                <ul>Here you can:
+                <ul>
                     <li>Quickly get inspiration to cuisines from all over the world </li>
                     <li>With a click find loads of super easy and quick recipes</li>
                     <li>Sign up to our newsletter and get even more inspiraton - suited just for you</li>
@@ -41,13 +41,13 @@
 
         <!--INSPO PAGE-->
         <section id="inspo-section">
-            <h1>INSPIRATION</h1>
+            <h2>INSPIRATION</h2>
             <!--food inspo divs with image and dish name-->
         
             <div class="inspiration-container">  
                 
                 <div class="country left-country" id="italy">
-                    <h2 class="cuisine-heading">Italian</h2>
+                    <h3 class="cuisine-heading">Italian</h3>
                     <div class="inspo-dish">
                         <img src="assets/images/caprese.jpg" alt="A picture of a caprese salad taken from above">
                         <p>Caprese salad</p>
@@ -64,7 +64,7 @@
                     
                 
                 <div class="country right-country" id="japan">
-                    <h2 class="cuisine-heading">Japanese</h2>
+                    <h3 class="cuisine-heading">Japanese</h3>
                     <div class="inspo-dish" >
                         <img src="assets/images/ramen_pork.jpg" alt="A picture of a bowl of ramen with pork">
                         <p>Bowl of Ramen with pork</p>
@@ -80,7 +80,7 @@
                 </div>
 
                 <div class="country left-country" id="lebanon">
-                    <h2 class="cuisine-heading">Lebanese</h2>
+                    <h3 class="cuisine-heading">Lebanese</h3>
                     <div class="inspo-dish">
                         <img src="assets/images/falafel.jpg" alt="A picture of a plate with falafel">
                         <p>Falafel</p>
@@ -97,7 +97,7 @@
                     
 
                 <div class="country right-country" id="mexico">
-                    <h2 class="cuisine-heading">Mexican</h2>
+                    <h3 class="cuisine-heading">Mexican</h3>
                     <div class="inspo-dish">
                         <img src="assets/images/tacos.jpg" alt="A picture of a plate of tacos">
                         <p>Tacos</p>
@@ -118,6 +118,35 @@
         <!--RECIPE PAGE-->
         <section id="recipe-section">         
             <h2>EASY RECIPES</h2>
+
+             <!--NEWSLETTER FORM-->
+             <fieldset class="newsletter-box">
+                <legend id="newsletter-legend">Sign up to our newsletter!</legend>
+                <form action="">
+                    <label for="first_name">First Name</label><br>
+                    <input type="text" id ="first_name" name="first_name" class="text-box"><br>
+
+                    <label for="last_name">Last Name</label><br>
+                    <input type="text" id="last_name" name="last_name" class="text-box"><br>
+
+                    <label for="email">Email Address</label><br>
+                    <input type="email" id="email" name="email" class="text-box"><br>
+
+                    <label for="dropdown_menu">Favourite cuisine</label><br>
+                    <select name="dropdown_menu" id="dropdown_menu">
+                        <option value="choose">Choose...</option>
+                        <option value="italy">Italian</option>
+                        <option value="japan">Japanese</option>
+                        <option value="lebanon">Lebanese</option>
+                        <option value="mexico">Mexican</option> 
+                    </select><br>
+
+                    <input type="submit" value="Submit" id="submit-button">
+
+                    <input type="reset" value="Reset" id="reset-button">
+                </form>
+            </fieldset>
+            
             <!--RECIPES-->
             <div id="recipe-container">
                 <div class="recipe">
@@ -158,33 +187,7 @@
                     <p class="recipe-steps">Chop all the vegetables to preferred size. Mix the oil with the salt and pepper. Add the vegetables to a bowl and drizzle the oil over it. </p>
                 </div>
             </div>        
-            <!--NEWSLETTER FORM-->
-            <fieldset class="newsletter-box">
-                <legend id="newsletter-legend">Sign up to our newsletter!</legend>
-                <form action="">
-                    <label for="first_name">First Name</label><br>
-                    <input type="text" name="first_name" class="text-box"><br>
-
-                    <label for="last_name">Last Name</label><br>
-                    <input type="text" name="last_name" class="text-box"><br>
-
-                    <label for="email">Email Address</label><br>
-                    <input type="email" name="email" class="text-box"><br>
-
-                    <label for="dropdown_menu">Favourite cuisine</label><br>
-                    <select name="dropdown_menu" id="dropdown-menu">
-                        <option value="choose">Choose...</option>
-                        <option value="italy">Italian</option>
-                        <option value="japan">Japanese</option>
-                        <option value="lebanon">Lebanese</option>
-                        <option value="mexico">Mexican</option> 
-                    </select><br>
-
-                    <input type="submit" value="Submit" id="submit-button">
-
-                    <input type="reset" value="Reset" id="reset-button">
-                </form>
-            </fieldset>
+           
         
         </section> <!--end of recipe page-->
 

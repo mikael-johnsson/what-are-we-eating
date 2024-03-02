@@ -64,6 +64,7 @@ a {
 
 h2 {
     font-size: xx-large;
+    text-align: center;
 }
 
 /*LANDING PAGE*/
@@ -125,12 +126,11 @@ h2 {
 #recipe-section {
     background-color: #ddd3f5ff;
     margin: 15px 0;
+    padding: 15px;
+    height: 1400px;
 
 }
 
-#recipe-section h2 {
-    text-align: center;
-}
 
 #recipe-container {
     display: flex;
@@ -167,6 +167,8 @@ h2 {
     width: 280px;
     position: sticky;
     top: 30px;
+    right: 30px;
+    float: right;
     text-align: center;
     display: flex;
     justify-content: center;
