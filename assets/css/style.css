@@ -129,7 +129,8 @@ h2 {
 
 #recipe-container {
     display: flex;
-    
+    gap: 10px;
+
 }
 
 .recipe-image {
