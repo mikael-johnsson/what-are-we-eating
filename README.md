@@ -88,17 +88,19 @@ The site have infinite possibilites to evolve. Some features that are planned bu
 wha thave i done to make the site Accessibility
 icons and aria -labels? alt image? contrast? fonts that are dyslexia friendly?
 ## Technologies Used
-HTML and CSS were used to create this website.
+
 ### Languages Used
-text
+HTML and CSS were used to create this website.
 ### Frameworks, Libraries & Programs Used
-include git, github, wireframe programs, 
-## Deployment & Local Development
-Git - for version control
+Git - For version control
 
 Github - To save and store files
 
 Font Awesome - For icons used in header and footer
+
+Balsamiq - For wireframes
+## Deployment & Local Development
+
 ### Deployment
 incstructions on how to deploy your project most likely github pages
 ### Local Development
