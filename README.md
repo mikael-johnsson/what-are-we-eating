@@ -1,110 +1,127 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Mikael Johnsson,
+# What are we eating tonight?
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+One of my biggest recurring problems in life is that I each day must figure out what I am going to cook for dinner. This website solves that problem.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+In a easy way the visitor can instantly get either top inspiration to all kinds of delicious dishes from all around the world *or* get their hands on some super easy and quick recipes.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+image of the finished site on all devices, use https://ui.dev/amiresponsive
 
-`python3 -m http.server`
+link to the live site (git hub pages link)
 
-A blue button should appear to click: _Make Public_,
+## Contents
 
-Another blue button should appear to click: _Open Browser_.
+- [User Experience](#user-experience)
+  - [User Stories](#user-stories)
+- [Design](#design)
+  - [Colour Scheme](#colour-scheme)
+  - [Typography](#typography)
+  - [Imagery](#imagery)
+  - [Wireframes](wireframes)
+- [Features](#features)
+  - [General Features on Each page](#general-features-on-each-page)
+  - [Future Implementations](#future-implementations)
+  - [Accessibility](#accessibility)
+- [Technologies Used](#technologies-used)
+  - [Languages Used](#languages-used)
+  - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+- [Deployment & Local Development](#deployment--local-development)
+  - [Deployment](#deployment)
+  - [Local Development](#local-development)
+    - [How to Fork](#how-to-fork) 
+    - [How to Clone](#how-to-clone)
+- [Testing](#testing)
+- [Credits](#credits)
+  - [Code Used](#code-used)
+  - [Content](#content)
+  - [Media](#media)
+  - [Acknowledgments](#acknowledgments)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## User Experience
+When you are hangry and desperate for some inspiration, a time consuming website should not be your next problem. This site is designed to be quick to use.
 
-A blue button should appear to click: _Make Public_,
+### User Stories
+First time visitors should instantly get an overview of the site information that this is a site that offers both inspiration and easy recipes.
 
-Another blue button should appear to click: _Open Browser_.
+Recurring visitors that know what they are looking for should be able to quickly get to the preferred page.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Design
+### Colour Scheme
+Image of the palette
 
-To log into the Heroku toolbelt CLI:
+Red and yellow are known for triggering apetite. Remaining colours are preferred contrasting colours according to coolors.co from which the pallette is taken.
+### Typography
+If imported fonts, from where, why did I choose them, image of the fonts
+### Imagery
+What sort of imagery, vilket utsnitt
+Images are taken from pexels.com and Google pictures. All images are licensed to use in commercial products. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Images to recipes and inspiration dishes are taken from above inside a round container (made round to resemble a plate). Food pictures taken from right above is a common practice by food influencers and gives the visitor a consequent design.
+### Wireframes 
+images of Wireframes
+## Features
+This site contain three different sections in a single html-page:
+- Landing page
+- Inspo page
+- Recipe page
+### General Features on each page
+Landing page gives the visitor a short summary of what the page does and a navigation bar to easily get to the most important content.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Inspo page give the visitor inspiring pictures with the names of the dishes, categorized under cuisine.
 
-------
+Recipe page gives the visitor quick and easy recipes with 3-5 ingredients that takes only a few miuntes to assemble. The recipe also have a feature where the visitor can sign up for the newsletter, for even more inspiration and recipes. The newsletter sign up-feature is located at the top of the recipe page and sticks to the top when you scroll down.
 
-## Release History
+The header locks at the top of the viewport and gives the visitor access to the navigation bar anywhere on the site.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+At the bottom the visitor find the footer which contain links to the social media accounts.
 
-**September 20 2023:** Update Python version to 3.9.17.
+The site is responsive - the design changes to be more compatible depending on which screen size the visitor uses.
+### Future Implementations
+The site have infinite possibilites to evolve. Some features that are planned but not yet executed are:
+- The possibility for the visitor to enter preferred dishes and/or cuisines and get suggestions based on those preferences. 
+- The possibility for the site to make suggestions based on what vegetables and fruits are in season in the visitors country at the moment. For a cheaper and more environment-friendly dish.
+- The possibility for the site to gather information about prices at shops local to the visitor. For a cheaper dish.
+- The possibility for the visitor to log what dishes and/or cuisines the visitor have eaten in the recent days/weeks and get suggestions based on those logs. For a more diverse eating experience.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Accessibility
+wha thave i done to make the site Accessibility
+icons and aria -labels? alt image? contrast? fonts that are dyslexia friendly?
+## Technologies Used
+HTML and CSS were used to create this website.
+### Languages Used
+text
+### Frameworks, Libraries & Programs Used
+include git, github, wireframe programs, 
+## Deployment & Local Development
+Git - for version control
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Github - To save and store files
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Font Awesome - For icons used in header and footer
+### Deployment
+incstructions on how to deploy your project most likely github pages
+### Local Development
+how could someone else make a copy of the project on the local machine
+#### How to Fork
+incstructions
+#### How to Clone
+incstructions
+##Testing
+link to eventuell testing.Md 
+## Credits
+text
+### Code Used
+note of which code isnt mine 
+### Content    
+Recipes are taken from swedish recipe site www.köket.se
+### Media
+Images are taken from:
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+pexels.com
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+google.com
+### Acknowledgments
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
