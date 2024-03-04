@@ -112,12 +112,24 @@ h2 {
 
 .inspiration-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 20px 20px;
     
-    
 
+}
+
+.country {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.country p {
+    margin-top: 5px;
 }
 
 
@@ -192,9 +204,6 @@ h2 {
     width: 190px;
 }
 
-*invalid {
-
-}
 
 input:user-invalid {
     border: 1px solid #F5666F;
