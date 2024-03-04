@@ -29,6 +29,8 @@ body h1,h2,h3,h4,h5,h6, a {
 /*header*/
 header {
     display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     background-color: #F5666F;
     height: 22vh;
     padding-left: 40px;
@@ -45,8 +47,6 @@ h1 {
     margin: 0;
     text-align: center;
     
-    
-
 }
 
 
@@ -56,9 +56,20 @@ nav {
     justify-content: flex-end;
     gap: 5em;
     padding-right: 60px;
+}
 
-    
+#menu-toggle {
+    display: none;
+}
 
+#menu-toggle-label {
+    display: none;
+}
+
+
+
+nav ul {
+    list-style-type: none;
 }
 
 a {
@@ -242,12 +253,42 @@ footer a {
 }
 
 
-/*For tablets*/
-@media screen and (max-width: 991px ){
-
-}
-
 /*For phones*/
 @media screen and (max-width: 767px) {
     
+}
+
+/*For tablets*/
+@media screen and (max-width: 991px ){
+/*Header*/
+h1 {
+    font-size: xxx-large;
+}
+
+nav {
+    display: none;
+}
+
+nav li {
+    text-align: end;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+#menu-toggle-label {
+    font-size: 5rem;
+    padding: 2rem 5rem 0 0;
+    display: block;
+}
+
+#menu-toggle:checked~nav{
+    display: block;
+}
+
+
+
+
+
 }
