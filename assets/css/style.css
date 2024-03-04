@@ -29,8 +29,8 @@ header {
 
 
 h1 {
-    flex-basis: 40%;
-    font-size: 2.5em;
+    flex-basis: 50%;
+    font-size: 4em;
     align-self: center;
     margin: 0;
     text-align: center;
@@ -41,7 +41,7 @@ h1 {
 
 
 nav {
-    flex-basis: 60%;
+    flex-basis: 50%;
     display: flex;
     justify-content: flex-end;
     gap: 5em;
@@ -74,10 +74,14 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    height: 65vh;
+    height: 60vh;
     margin: 15px 0;
-    padding: 5px 0;
+    padding: 30px 0;
     background: #e4c139ff;
+}
+
+#landing-section h2 {
+    text-align: left;
 }
 
 #landing-img /*2488x3360px*/ {
@@ -93,7 +97,7 @@ h2 {
 }
 
 #landing-text {
-    flex-basis: 30vw;
+    flex-basis: 32vw;
 }
 
 /*INSPO PAGE*/
