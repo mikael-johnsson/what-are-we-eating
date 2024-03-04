@@ -30,7 +30,7 @@ body h1,h2,h3,h4,h5,h6, a {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     background-color: #F5666F;
     height: 22vh;
     padding-left: 40px;
@@ -70,6 +70,9 @@ nav {
 
 nav ul {
     list-style-type: none;
+    display: flex;
+    gap: 6rem;
+    
 }
 
 a {
@@ -255,14 +258,41 @@ footer a {
 
 /*For phones*/
 @media screen and (max-width: 767px) {
+
+    /*Header*/
+    h1 {
+        font-size: 2rem;
+    }
     
+    nav {
+        display: none;
+    }
+    
+    nav li {
+        text-align: end;
+    }
+    
+    #menu-toggle {
+        display: none;
+    }
+    
+    #menu-toggle-label {
+        font-size: 5rem;
+        padding: 2rem 5rem 0 0;
+        display: block;
+    }
+    
+    #menu-toggle:checked~nav{
+        display: block;
+    }
 }
+
 
 /*For tablets*/
 @media screen and (max-width: 991px ){
 /*Header*/
 h1 {
-    font-size: xxx-large;
+    font-size: 3rem;
 }
 
 nav {
@@ -271,6 +301,10 @@ nav {
 
 nav li {
     text-align: end;
+}
+
+nav ul {
+    display: block;
 }
 
 #menu-toggle {
