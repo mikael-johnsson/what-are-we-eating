@@ -180,6 +180,15 @@ h2 {
     padding: 3px;
     position: relative;
     top: 15px;
+    width: 190px;
+}
+
+*invalid {
+
+}
+
+input:user-invalid {
+    border: 1px solid #F5666F;
 }
 
 /*footer*/
