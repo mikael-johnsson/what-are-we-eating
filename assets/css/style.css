@@ -66,9 +66,14 @@ a {
     font-size: xx-large;
     align-self: center;
     text-decoration: none;
-    
+    color: #542644ff;
 
 }
+
+/*To override default colour when link not visited
+a:visited {
+    color: #542644ff;
+}*/
 
 /*MAIN*/
 
