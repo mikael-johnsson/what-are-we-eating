@@ -75,9 +75,10 @@ h2 {
     justify-content: space-evenly;
     flex-direction: row;
     height: 60vh;
-    margin: 15px 0;
+    margin: 15px 0 0 0;
     padding: 30px 0;
     background: #e4c139ff;
+    border-bottom: 1px solid white; /*BUG: line needed to keep margin at 15px, which intended*/
 }
 
 #landing-section h2 {
@@ -103,8 +104,9 @@ h2 {
 /*INSPO PAGE*/
 
 #inspo-section {
-    margin: 15px 0;
+    margin: 15px 0 0 0;
     background: #94d0c2ff;
+    border-top: 1px solid white; /*BUG: line needed to keep margin at 15px, which intended*/
     
 }
 
@@ -129,7 +131,7 @@ h2 {
 /*RECIPE PAGE*/
 #recipe-section {
     background-color: #ddd3f5ff;
-    margin: 15px 0;
+    margin: 15px 0 0 0;
     padding: 15px;
     height: 1400px;
 
@@ -201,6 +203,7 @@ footer {
     background-color: #F5666F;
     text-align: center;
     padding-top: 40px;
+    margin: 15px 0 0 0;
 }
 
 footer a {
