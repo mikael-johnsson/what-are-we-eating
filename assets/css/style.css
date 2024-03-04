@@ -66,14 +66,10 @@ a {
     font-size: xx-large;
     align-self: center;
     text-decoration: none;
-    color: inherit;
+    color: #542644ff;
 
 }
 
-/*To override default colour when link not visited
-a:visited {
-    color: #542644ff;
-}*/
 
 /*MAIN*/
 
@@ -85,7 +81,6 @@ h2 {
 /*LANDING PAGE*/
 
 #landing-section {
-    height: 580px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -160,7 +155,7 @@ h2 {
     background-color: #ddd3f5ff;
     margin: 15px 0 0 0;
     padding: 25px;
-    height: 150vh;
+    height: 1800px;
 
 }
 
@@ -185,6 +180,11 @@ h2 {
 
 .recipe * {
     flex-basis: 18vW;
+}
+
+.recipe ul {
+    text-align: end;
+    list-style-type: none;
 }
 
 
