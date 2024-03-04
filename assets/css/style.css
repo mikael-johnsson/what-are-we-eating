@@ -30,14 +30,17 @@ body h1,h2,h3,h4,h5,h6, a {
 header {
     display: flex;
     background-color: #F5666F;
-    height: 25vh;
+    height: 22vh;
     padding-left: 40px;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
 }
 
 
 h1 {
     flex-basis: 50%;
-    font-size: 4em;
+    font-size: 3.5em;
     align-self: center;
     margin: 0;
     text-align: center;
@@ -194,7 +197,7 @@ h2 {
     height: 18vW;
     width: 18vw;
     position: sticky;
-    top: 30px;
+    top: 23vh;
     right: 30px;
     float: right;
     text-align: center;
