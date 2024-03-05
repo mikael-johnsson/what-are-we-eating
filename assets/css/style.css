@@ -105,7 +105,7 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    height: 56vh;
+    height: fit-content;
     margin: 15px 0 0 0;
     padding: 30px 0;
     background: #e4c139ff;
@@ -432,6 +432,10 @@ footer a {
         margin-bottom: 20px;
     }
 
+    #pancakes {
+        gap: 49px;
+    }
+
     /*Footer*/
 
     footer {
@@ -500,6 +504,7 @@ footer a {
         height: fit-content;
         padding: 10px;
         text-align: center;
+        margin-top: 15px;
     }
 
     #landing-section ul {
@@ -517,6 +522,7 @@ footer a {
     /*Inspo page*/
     #inspo-section {
         gap: 23px;
+        margin-top: 10px;
     }
 
     #inspo-section h2 {
@@ -534,6 +540,10 @@ footer a {
         text-align: center;
     }
 
+    /*Recipes*/
+    #recipe-section {
+        margin-top: 10px;
+    }
     .recipe {
         gap: 15px;
     }
@@ -541,10 +551,15 @@ footer a {
     .recipe h3 {
         flex-grow: 2;
     }
+
+    #pancakes {
+        gap: 19px;
+    }
     
     /*Footer*/
     footer {
         height:fit-content;
+        margin-top: 10px;
     }
     footer a {
         font-size: xx-large;
