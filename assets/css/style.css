@@ -27,6 +27,8 @@ a {
     text-transform: uppercase;
 }
 
+
+
 /*header*/
 header {
     display: flex;
@@ -93,7 +95,7 @@ a:link {
 /*MAIN*/
 
 h2 {
-    font-size: xx-large;
+    font-size: xxx-large;
     text-align: center;
 }
 
@@ -149,8 +151,10 @@ h2 {
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 20px 20px;
+}
 
-
+#inspo-section h2 {
+    margin-top: 210px;
 }
 
 .country {
@@ -200,6 +204,10 @@ h2 {
     gap: 15px;
     align-items: center;
     flex-basis: 18vw;
+}
+
+#recipe-section h2 {
+    margin-top: 190px;
 }
 
 .recipe h3 {
