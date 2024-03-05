@@ -232,6 +232,10 @@ h2 {
 
 
 /*Newsletter*/
+
+#newsletter-checkbox {
+    display: none;
+}
 .newsletter-box {
     border: solid 2px #542644ff;
     border-radius: 50%;
@@ -345,6 +349,7 @@ footer a {
     }
 
 
+
     /*Landing page*/
 
     #landing-section {
@@ -391,10 +396,42 @@ footer a {
 
     /*Recipe-page*/
 
-    .newsletter-box {
+    /*Newsletter-form*/
+    #newsletter-checkbox-label {
+        display: inline-block;
+        font-weight: bold;
+        font-size: large;
+        border: solid 2px #542644ff;
+        border-radius: 5%;
+        padding: 7px;
+    }
+
+    #newsletter-checkbox {
         display: none;
     }
 
+    .newsletter-box {
+        display: none;
+
+    }
+
+    #newsletter-checkbox:checked~fieldset {
+        display: block;
+        border: solid 2px #542644ff;
+        border-radius: 5%;
+        float: none;
+        right:auto;
+        height: 220px;
+        width: 200px;
+        margin-top: 10px;
+    }
+
+
+    legend {
+        display: none;
+    }
+
+    /*Recipes*/
     #recipe-container {
         width: 100%;
         gap: 68px;
@@ -417,6 +454,7 @@ footer a {
 
     #recipe-container h3 {
         font-size: 1.5em;
+        margin-bottom: 20px;
     }
 
     /*Footer*/
