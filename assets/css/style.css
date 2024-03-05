@@ -223,10 +223,9 @@ h2 {
     list-style-type: none;
 }
 
-
 .recipe-image {
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -312,7 +311,7 @@ footer a {
 
     /*Header*/
     h1 {
-        font-size: 3rem;
+        font-size: 2.3rem;
     }
 
     nav {
@@ -344,13 +343,32 @@ footer a {
     /*Landing page*/
 
     #landing-section {
-        height: 66vh;
+        height: 86vh;
+        display: block;
+        text-align: center;
+    }
+
+    #landing-section h2 {
+        font-size: x-large;
+        text-align: center;
     }
 
     #landing-img {
-        width: 340px;
-        height: 340px;
+        width: 300px;
+        height: 300px;
+        
     }
+
+    #landing-section ul {
+        list-style-type: none;
+        font-weight: bold;
+    
+    }
+
+    #landing-section ul li {
+        padding: 10px 0;
+    }
+
 
     /*Inspo page*/
     .inspiration-container {
@@ -364,6 +382,36 @@ footer a {
     #inspo-section h2,
     h3 {
         font-size: 2em;
+    }
+
+    /*Recipe-page*/
+
+    .newsletter-box {
+        display: none;
+    }
+
+    #recipe-container {
+        width: 100%;
+        gap: 68px;
+    }
+
+    .recipe {
+        flex-wrap: wrap;
+        gap: 45px;
+    }
+
+    .recipe-steps {
+        flex-grow: 1;
+        margin-top: -13px;
+    }
+
+    .recipe-image {
+        width: 200px;
+        height: 200px;
+    }
+
+    #recipe-container h3 {
+        font-size: 1.5em;
     }
 
 
