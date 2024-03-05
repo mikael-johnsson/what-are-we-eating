@@ -340,6 +340,11 @@ footer a {
         display: block;
     }
 
+    #menu-toggle:checked~label {
+        display: none;
+    }
+
+
     /*Landing page*/
 
     #landing-section {
@@ -414,5 +419,18 @@ footer a {
         font-size: 1.5em;
     }
 
+    /*Footer*/
+
+    footer {
+        padding: 25px 0;
+    }
+
+    footer h3 {
+        font-size: 1.5em;
+    }
+
+    footer a {
+        font-size: xxx-large;
+    }
 
 }
