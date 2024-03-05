@@ -233,9 +233,10 @@ h2 {
 
 /*Newsletter*/
 
-#newsletter-checkbox {
+#newsletter-checkbox, #newsletter-checkbox-label{
     display: none;
 }
+
 .newsletter-box {
     border: solid 2px #542644ff;
     border-radius: 50%;
@@ -396,6 +397,10 @@ footer a {
 
     /*Recipe-page*/
 
+    #recipe-section {
+        height: fit-content;
+    }
+
     /*Newsletter-form*/
     #newsletter-checkbox-label {
         display: inline-block;
@@ -404,6 +409,7 @@ footer a {
         border: solid 2px #542644ff;
         border-radius: 5%;
         padding: 7px;
+        margin-left: 9px;
     }
 
     #newsletter-checkbox {
@@ -417,10 +423,12 @@ footer a {
 
     #newsletter-checkbox:checked~fieldset {
         display: block;
+        position: static;
         border: solid 2px #542644ff;
         border-radius: 5%;
         float: none;
         right:auto;
+        top:40px;
         height: 220px;
         width: 200px;
         margin-top: 10px;
