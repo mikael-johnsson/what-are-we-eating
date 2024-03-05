@@ -202,8 +202,12 @@ h2 {
     flex-basis: 18vw;
 }
 
-.recipe * {
-    flex-basis: 18vW;
+.recipe h3 {
+    flex-basis: 16vW;
+}
+
+.recipe-steps {
+    flex-basis: 16vW;
 }
 
 .recipe ul {
