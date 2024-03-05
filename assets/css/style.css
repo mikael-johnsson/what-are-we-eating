@@ -24,6 +24,7 @@ body {
 
 body h1,h2,h3,h4,h5,h6, a {
     font-family: "Madimi One";
+    text-transform: uppercase;
 }
 
 /*header*/
@@ -324,7 +325,7 @@ nav ul {
 /*Landing page*/
 
 #landing-section {
-    height: 64vh;
+    height: 66vh;
 }
 
 #landing-img {
