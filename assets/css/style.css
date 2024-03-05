@@ -321,8 +321,29 @@ nav ul {
     display: block;
 }
 
+/*Landing page*/
 
+#landing-section {
+    height: 64vh;
+}
 
+#landing-img {
+    width: 340px;
+    height: 340px;
+}
+
+/*Inspo page*/
+.inspiration-container {
+    gap: 10px;
+}
+
+.country {
+    flex-basis: 300px;
+}
+
+#inspo-section h2, h3 {
+    font-size: 2em;
+}
 
 
 }
