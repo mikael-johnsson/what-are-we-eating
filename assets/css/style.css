@@ -3,7 +3,7 @@
 
 /*body*/
 body {
-    color: #542644ff;
+    color: #542644;
     font-family: "Poppins", sans-serif;
 }
 
@@ -68,11 +68,11 @@ a {
     font-size: xx-large;
     align-self: center;
     text-decoration: none;
-    color: #542644ff;
+    color: #542644;
 }
 
 a:link {
-    color: #542644ff;
+    color: #542644;
 }
 
 /*MAIN*/
@@ -89,7 +89,7 @@ h2 {
     height: fit-content;
     margin: 15px 0 0 0;
     padding: 30px 0;
-    background: #e4c139ff;
+    background: #e4c139;
 }
 
 #landing-section h2 {
@@ -114,7 +114,7 @@ h2 {
 /*INSPO PAGE*/
 #inspo-section {
     margin: 15px 0 0 0;
-    background: #94d0c2ff;
+    background: #94d0c2;
 }
 
 .inspiration-container {
@@ -171,7 +171,7 @@ h2 {
 }
 
 .newsletter-box {
-    border: solid 2px #542644ff;
+    border: solid 2px #542644;
     border-radius: 50%;
     height: 18vW;
     width: 18vw;
@@ -199,7 +199,7 @@ input:user-invalid {
 
 /*RECIPES*/
 #recipe-section {
-    background-color: #ddd3f5ff;
+    background-color: #ddd3f5;
     margin: 15px 0 0 0;
     padding: 25px;
     height: 1800px;
@@ -285,7 +285,7 @@ footer a {
         display: inline-block;
         font-weight: bold;
         font-size: large;
-        border: solid 2px #542644ff;
+        border: solid 2px #542644;
         border-radius: 5%;
         padding: 7px;
         margin: 0 0 40px 9px;
@@ -302,7 +302,7 @@ footer a {
     #newsletter-checkbox:checked~fieldset {
         display: block;
         position: static;
-        border: solid 2px #542644ff;
+        border: solid 2px #542644;
         border-radius: 5%;
         float: none;
         right: auto;
@@ -414,7 +414,7 @@ footer a {
         display: inline-block;
         font-weight: bold;
         font-size: large;
-        border: solid 2px #542644ff;
+        border: solid 2px #542644;
         border-radius: 5%;
         padding: 7px;
         margin-left: 9px;
@@ -431,7 +431,7 @@ footer a {
     #newsletter-checkbox:checked~fieldset {
         display: block;
         position: static;
-        border: solid 2px #542644ff;
+        border: solid 2px #542644;
         border-radius: 5%;
         float: none;
         right: auto;

@@ -71,9 +71,9 @@ Images to recipes and inspiration dishes are taken from above inside a round con
 ### Wireframes 
 These were the original ideas for the three different sections:
 
-![Image of the wireframe for the landing page](assets/images/readme-images/LANDING-PAGE.png)
-![Image of the wireframe for the inpiration page](assets/images/readme-images/INSPO.png)
-![Image of the wireframe for the recipe page and footer](assets/images/readme-images/RECIPES.png)
+![Image of the wireframe for the landing page](assets/images/readme-images/landing-page-wireframe.png)
+![Image of the wireframe for the inpiration page](assets/images/readme-images/inspo-wireframe.png)
+![Image of the wireframe for the recipe page and footer](assets/images/readme-images/recipe-page-wrireframe.png)
 
 It is easy to see where the initial design idea differs from the result. The content in the Inspo page used the space to inefficiently and a simpler design were chosen instead.
 
@@ -84,15 +84,25 @@ This site contain three different sections in a single html-page:
 - Inspo page
 - Recipe page
 ### General Features on each page
+**The header** sticks at the top of the viewport and gives the visitor access to the navigation bar anywhere on the site. When using a tablet or smaller, the menu bar hides behind a menu icon.
+
+![Screenshot of the sites header](assets/images/readme-images/header.png)
+
 **The Landing page** gives the visitor a short summary of what the page does and a navigation bar to easily get to the most important content.
+
+![Screenshot of the sites landing page](assets/images/readme-images/landing-page.png)
 
 **The Inspo page** gives the visitor inspiring pictures with the names of the dishes, categorized under cuisine.
 
+![Screenshot of the sites inspiration page](assets/images/readme-images/inspo-page.png)
+
 **The Recipe page** gives the visitor quick and easy recipes with 3-5 ingredients that takes only a few miuntes to assemble. The recipe also have a feature where the visitor can sign up for the newsletter, for even more inspiration and recipes. The newsletter sign up-feature is located at the top of the recipe page. When using desktop it sticks to the top of the page when scrolling down. When using smaller screens it is revealed when clicking the newsletter-label.
 
-**The header** sticks at the top of the viewport and gives the visitor access to the navigation bar anywhere on the site. When using a tablet or smaller, the menu bar hides behind a menu icon.
+![Screenshot of the sites recipe page](assets/images/readme-images/recipe-page.png)
 
 **The footer** is found at the bottom of the site. In the footer the visitor can find links to the social media pages.
+
+![Screenshot of the sites footer](assets/images/readme-images/footer.png)
 
 The site is responsive - the design changes to be more compatible depending on which screen size the visitor uses.
 ### Future Implementations
@@ -234,19 +244,29 @@ Below is a table with different browsers, how the site appears on them and how t
 ## Credits
 
 ### Code Used
-The following code from Code Institutes *Love Running* project were used and adapted to create the menu bar on smaller devices:
+The following code where taken from Code Institutes *Love Running* project and later on adapted to this project.
 
-#nav-toggle:checked~nav {
-    display: block;
-}
+```
+  #menu-toggle {
+        display: none;
+    }
 
-#nav-toggle {
-    display: none;
-}
+    #menu-toggle-label {
+        font-size: 5rem;
+        padding: 2rem 5rem 0 0;
+        display: block;
+    }
 
-.nav-toggle-label {
-    font-size: 2rem;
-}
+    #menu-toggle:checked~nav {
+        display: block;
+    }
+
+    #menu-toggle:checked~label {
+        display: none;
+    }
+ ```
+    
+
 
 ### Content    
 Recipes are taken from swedish recipe site https://www.köket.se
