@@ -270,6 +270,7 @@ footer a {
 }
 
 @media screen and (max-width: 1920px) {
+
     /*Header*/
     header {
         height: fit-content;
@@ -320,6 +321,7 @@ footer a {
 
 /*For tablets*/
 @media screen and (max-width: 991px) {
+
     /*Header*/
     h1 {
         font-size: 2.3rem;
@@ -336,6 +338,9 @@ footer a {
     nav ul {
         display: block;
     }
+
+    /*The following code (until Landing page comment) where taken from Code Institutes *Love Running* project 
+    and later on adapted to this project.*/
 
     #menu-toggle {
         display: none;
@@ -484,6 +489,7 @@ footer a {
 
 /*For phones*/
 @media screen and (max-width: 767px) {
+
     /*General*/
     body {
         margin: 0 3px;
