@@ -94,6 +94,7 @@ h2 {
 
 #landing-section h2 {
     text-align: left;
+    
 }
 
 #landing-img {
@@ -124,7 +125,9 @@ h2 {
 }
 
 #inspo-section h2 {
-    margin-top: 210px;
+    padding-top: 278px;
+    margin-top: 0;
+
 }
 
 .country {
@@ -220,7 +223,7 @@ input:user-invalid {
 }
 
 #recipe-section h2 {
-    margin-top: 190px;
+    padding-top: 220px;
 }
 
 .recipe h3 {
@@ -397,9 +400,8 @@ footer a {
         flex-basis: 300px;
     }
 
-    #inspo-section h2,
-    h3 {
-        font-size: 2em;
+    #inspo-section h2 {
+        font-size: xxx-large;
     }
 
     /*Recipe-page*/
@@ -561,7 +563,7 @@ footer a {
     }
 
     #inspo-section h2 {
-        font-size: 2.5em;
+        font-size: xx-large;
     }
 
     #inspo-section h3 {
@@ -578,6 +580,10 @@ footer a {
     /*Recipes*/
     #recipe-section {
         margin-top: 10px;
+    }
+
+    #recipe-section h2 {
+        font-size: xx-large;
     }
 
     .recipe {
