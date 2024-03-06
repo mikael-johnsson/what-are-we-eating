@@ -1,19 +1,10 @@
-/*COLOR PALETTE*/
-/* CSS HEX
---imperial-red: #f23642ff; - RED (background)
---violet-jtc: #542644ff; - PLUM (text)
---saffron: #e4c139ff; - YELLOW (logos and borders)
---tiffany-blue: #94d0c2ff; LIGHT BLUE ()
---periwinkle: #ddd3f5ff; LIGHT PURPLE ()
-*/
-
 /*Google Fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /*body*/
 body {
     color: #542644ff;
-    font-family: "Poppins" sans-serif;
+    font-family: "Poppins"sans-serif;
 }
 
 body h1,
@@ -23,11 +14,9 @@ h4,
 h5,
 h6,
 a {
-    font-family: "Madimi One" sans-serif;
+    font-family: "Madimi One"sans-serif;
     text-transform: uppercase;
 }
-
-
 
 /*header*/
 header {
@@ -49,7 +38,6 @@ h1 {
     align-self: center;
     margin: 0;
     text-align: center;
-
 }
 
 
@@ -69,13 +57,10 @@ nav {
     display: none;
 }
 
-
-
 nav ul {
     list-style-type: none;
     display: flex;
     gap: 6rem;
-
 }
 
 a {
@@ -84,23 +69,19 @@ a {
     align-self: center;
     text-decoration: none;
     color: #542644ff;
-
 }
 
 a:link {
     color: #542644ff;
 }
 
-
 /*MAIN*/
-
 h2 {
     font-size: xxx-large;
     text-align: center;
 }
 
 /*LANDING PAGE*/
-
 #landing-section {
     display: flex;
     justify-content: space-evenly;
@@ -117,10 +98,7 @@ h2 {
     text-align: left;
 }
 
-#landing-img
-
-/*2488x3360px*/
-    {
+#landing-img {
     width: 430px;
     height: 430px;
     object-fit: cover;
@@ -128,8 +106,6 @@ h2 {
     border-radius: 50%;
     position: relative;
     left: 30px;
-
-
 }
 
 #landing-text {
@@ -137,13 +113,11 @@ h2 {
 }
 
 /*INSPO PAGE*/
-
 #inspo-section {
     margin: 15px 0 0 0;
     background: #94d0c2ff;
     border-top: 1px solid white;
     /*BUG: line needed to keep margin at 15px, which intended*/
-
 }
 
 .inspiration-container {
@@ -172,7 +146,6 @@ h2 {
 
 #noodles_zucchini img {
     object-position: 0px -66px;
-    
 }
 
 #falafel img {
@@ -194,8 +167,8 @@ h2 {
 /*RECIPE PAGE*/
 
 /*Newsletter*/
-
-#newsletter-checkbox, #newsletter-checkbox-label{
+#newsletter-checkbox,
+#newsletter-checkbox-label {
     display: none;
 }
 
@@ -222,7 +195,6 @@ h2 {
     width: 190px;
 }
 
-
 input:user-invalid {
     border: 1px solid #F5666F;
 }
@@ -233,9 +205,7 @@ input:user-invalid {
     margin: 15px 0 0 0;
     padding: 25px;
     height: 1800px;
-
 }
-
 
 #recipe-container {
     display: flex;
@@ -243,7 +213,6 @@ input:user-invalid {
     flex-wrap: wrap;
     width: 72vw;
     gap: 10px;
-
 }
 
 .recipe {
@@ -295,9 +264,6 @@ input:user-invalid {
     object-position: -73px 1px;
 }
 
-
-
-
 /*footer*/
 footer {
     height: 150px;
@@ -311,12 +277,13 @@ footer a {
     margin: 0 20px;
 }
 
-@media screen and (max-width: 1920px){
+@media screen and (max-width: 1920px) {
     /*Header*/
     header {
         height: fit-content;
         padding: 25px;
     }
+
     /*Newsletter*/
     #newsletter-checkbox-label {
         display: inline-block;
@@ -334,7 +301,6 @@ footer a {
 
     .newsletter-box {
         display: none;
-
     }
 
     #newsletter-checkbox:checked~fieldset {
@@ -343,8 +309,8 @@ footer a {
         border: solid 2px #542644ff;
         border-radius: 5%;
         float: none;
-        right:auto;
-        top:40px;
+        right: auto;
+        top: 40px;
         height: 220px;
         width: 200px;
         margin-top: 10px;
@@ -355,16 +321,13 @@ footer a {
     }
 
     /*Recipes*/
-
     #recipe-container {
         width: 100%;
     }
 }
-    
 
 /*For tablets*/
 @media screen and (max-width: 991px) {
-
     /*Header*/
     h1 {
         font-size: 2.3rem;
@@ -400,10 +363,7 @@ footer a {
         display: none;
     }
 
-
-
     /*Landing page*/
-
     #landing-section {
         height: 86vh;
         display: block;
@@ -418,19 +378,17 @@ footer a {
     #landing-img {
         width: 300px;
         height: 300px;
-        
+
     }
 
     #landing-section ul {
         list-style-type: none;
         font-weight: bold;
-    
     }
 
     #landing-section ul li {
         padding: 10px 0;
     }
-
 
     /*Inspo page*/
     .inspiration-container {
@@ -448,7 +406,6 @@ footer a {
     }
 
     /*Recipe-page*/
-
     #recipe-section {
         height: fit-content;
     }
@@ -470,7 +427,6 @@ footer a {
 
     .newsletter-box {
         display: none;
-
     }
 
     #newsletter-checkbox:checked~fieldset {
@@ -479,13 +435,12 @@ footer a {
         border: solid 2px #542644ff;
         border-radius: 5%;
         float: none;
-        right:auto;
-        top:40px;
+        right: auto;
+        top: 40px;
         height: 220px;
         width: 200px;
         margin-top: 10px;
     }
-
 
     legend {
         display: none;
@@ -522,7 +477,6 @@ footer a {
     }
 
     /*Footer*/
-
     footer {
         padding: 25px 0;
     }
@@ -534,7 +488,6 @@ footer a {
     footer a {
         font-size: xxx-large;
     }
-
 }
 
 /*For phones*/
@@ -543,10 +496,12 @@ footer a {
     body {
         margin: 0 3px;
     }
+
     /*Header*/
     header {
         padding-left: 15px;
     }
+
     h1 {
         font-size: 1.5rem;
     }
@@ -582,8 +537,6 @@ footer a {
         display: block;
     }
 
-    /*Main content*/
-
     /*Landing page*/
     #landing-section {
         height: fit-content;
@@ -601,7 +554,6 @@ footer a {
         width: 170px;
         height: 170px;
         left: 0;
-        
     }
 
     /*Inspo page*/
@@ -619,9 +571,8 @@ footer a {
     }
 
     /*Recipe page*/
-
     /*Newsletter-form*/
-    #newsletter-checkbox-label{
+    #newsletter-checkbox-label {
         text-align: center;
         margin: 0 25px;
     }
@@ -630,6 +581,7 @@ footer a {
     #recipe-section {
         margin-top: 10px;
     }
+
     .recipe {
         gap: 15px;
         flex-direction: column;
@@ -637,7 +589,7 @@ footer a {
 
     .recipe h3 {
         flex-grow: 2;
-        text-align: center ;
+        text-align: center;
     }
 
     .ingredient-list {
@@ -647,12 +599,13 @@ footer a {
     #pancakes {
         gap: 19px;
     }
-    
+
     /*Footer*/
     footer {
-        height:fit-content;
+        height: fit-content;
         margin-top: 10px;
     }
+
     footer a {
         font-size: xx-large;
         margin-bottom: 20px;
