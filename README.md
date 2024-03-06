@@ -125,13 +125,38 @@ Balsamiq - For wireframes
 ## Deployment & Local Development
 
 ### Deployment
-incstructions on how to deploy your project most likely github pages
+Github pages is used to deploy this site. To deploy the site yourself, follow these instructions:
+
+- Sign in to Github
+- Go to the repository for this project called [*what-are-we-eating*](https://github.com/mikael-johnsson/what-are-we-eating)
+- Click *settings*
+- In the column to the left, click *pages*
+- From the dropwdown, select *main branch* and then save
+- The site is now deployed!
 ### Local Development
-how could someone else make a copy of the project on the local machine
+
 #### How to Fork
-incstructions
+To fork the repository:
+
+- Log in to Github
+
+
+- Go to the repository for this project called *what-are-we-eating*
+
+- Click the Fork button in the top right corner
 #### How to Clone
-incstructions
+- Log in (or sign up) to GitHub.
+
+Go to the repository for this project, *what-are-we-eating*.
+
+- Click *Code* and choose whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link.
+
+- Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+
+- Type the following command in the terminal (after the git clone you will need to paste the link you copied in step 3 above):
+
+      git clone { & THE LINK FROM STEP 3 }
+
 
 ## Testing
 testing 
@@ -164,6 +189,8 @@ Images were taken from:
 https://www.pexels.com
 ### Acknowledgments
 Huge thank you to my Code institute mentor Graeme Taylor for offering excellent insights in good coding praxis.
+
+Thank you to Kera Cudmore for creating the template for this Readme.
 
 
 
