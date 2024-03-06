@@ -312,6 +312,11 @@ footer a {
 }
 
 @media screen and (max-width: 1920px){
+    /*Header*/
+    header {
+        height: fit-content;
+        padding: 25px;
+    }
     /*Newsletter*/
     #newsletter-checkbox-label {
         display: inline-block;
@@ -618,6 +623,7 @@ footer a {
     /*Newsletter-form*/
     #newsletter-checkbox-label{
         text-align: center;
+        margin: 0 25px;
     }
 
     /*Recipes*/
