@@ -3,12 +3,14 @@
 
 One of my biggest recurring problems in life is that I each day must figure out what I am going to cook for dinner. This website solves that problem.
 
-In a easy way the visitor can instantly get either top inspiration to all kinds of delicious dishes from all around the world *or* get their hands on some super easy and quick recipes.
+In an easy way the visitor can instantly get either top inspiration to all kinds of delicious dishes from all around the world *or* get their hands on some super easy and quick recipes.
+
+Find the link to the site [here](https://mikael-johnsson.github.io/what-are-we-eating/)
 
 
-image of the finished site on all devices, use https://ui.dev/amiresponsive
+![Image of the site depicted on different devices](assets/images/readme-images/responsive-site.png)
 
-Find the site [here](https://mikael-johnsson.github.io/what-are-we-eating/)
+
 
 ## Contents
 
@@ -53,6 +55,8 @@ Recurring visitors that know what they are looking for should be able to quickly
 Red and yellow are known for triggering apetite. Remaining colours are preferred contrasting colours according to coolors.co from which the pallette is taken.
 
 The plum color is used for text and borders. Remaining colours are background colours: red for header and footer, yellow for landing page, teal for inspiration page and lavender for recipe page.
+
+
 ### Typography
 The site uses two fonts: "Poppins" for general text and "Madimi One" for headings. 
 
@@ -68,6 +72,8 @@ The site uses two fonts: "Poppins" for general text and "Madimi One" for heading
 "Poppins" is a sans serif-font, easier to read.
 ### Imagery
 Images to recipes and inspiration dishes are taken from above inside a round container (made round to resemble a plate). Food pictures taken from straight above is a common practice by food influencers and gives the visitor a consequent design.
+
+![Screenshot of some of the images on the site](assets/images/readme-images/images.png)
 ### Wireframes 
 These were the original ideas for the three different sections:
 
@@ -88,11 +94,11 @@ This site contain three different sections in a single html-page:
 
 ![Screenshot of the sites header](assets/images/readme-images/header.png)
 
-**The Landing page** gives the visitor a short summary of what the page does and a navigation bar to easily get to the most important content.
+**The Landing page** gives the visitor a short summary of what the page intend to do.
 
 ![Screenshot of the sites landing page](assets/images/readme-images/landing-page.png)
 
-**The Inspo page** gives the visitor inspiring pictures with the names of the dishes, categorized under cuisine.
+**The Inspiration page** gives the visitor inspiring pictures of delicious food with the names of the dishes, categorized under cuisine.
 
 ![Screenshot of the sites inspiration page](assets/images/readme-images/inspo-page.png)
 
