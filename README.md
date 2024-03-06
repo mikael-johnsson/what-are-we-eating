@@ -217,9 +217,6 @@ Below is a table with the sites features, how it has been tested and what the ou
 |Nav bar - Inspo |Click |Redirected to Inspiration page |
 |Nav bar - Recipes |Click |Redirected to Recipe page |
 |Nav bar - Icon (tablets and smaller) |Click |Menu shows |
-|Landing page | | |
-|Inspiration page | | |
-|Recipe page | | |
 |Newsletter form - hidden |Click |Newsletter form shows |
 |Newsletter form|Give the required information|Form is successfully sent|
 |Newsletter form (desktop)|Scroll down through site|The newsletter form sticks to top of viewport (under the header) inside Recipe page|
@@ -228,14 +225,16 @@ Below is a table with the sites features, how it has been tested and what the ou
 |Social media link - Instagram |Click |Redirected to Instagram |
 |Social media link - Youtube |Click |Redirected to Youtube |
 |Social media link - Facebook |Click |Redirected to Facebook |
-|Footer| | | |
 
 #### Screen size compability
 Below is a table with different devices and the outcomes when visiting the site using different screen sizes.
 
-|Device|Site responsive <768px|Site responsive 768px to 991px|Site responsive >991px| Renders as expected |
-|---|---|---|---|---|
-|Galaxy Fold |Good |N/A |N/A |Good |
+|Device|Site responsive <768px|Site responsive 768px to 991px|Site responsive 992px to 1919px| Site responsive >=1920px| Renders as expected |
+|---|---|---|---|---|---| 
+|Galaxy Fold |Good |N/A |N/A |N/A |Good |
+|iPad Mini |N/A|Good |N/A |N/A |Good |
+|Laptop (1366px wide) |N/A |N/A |Good |N/A |Good |
+|Desktop (1920px wide) |N/A |N/A |N/A | Good|Good |
 
 #### Browser compability
 Below is a table with different browsers, how the site appears on them and how the sites responsiveness is on them.
