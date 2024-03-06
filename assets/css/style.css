@@ -90,8 +90,6 @@ h2 {
     margin: 15px 0 0 0;
     padding: 30px 0;
     background: #e4c139ff;
-    border-bottom: 1px solid white;
-    /*BUG: line needed to keep margin at 15px, which intended*/
 }
 
 #landing-section h2 {
@@ -116,8 +114,6 @@ h2 {
 #inspo-section {
     margin: 15px 0 0 0;
     background: #94d0c2ff;
-    border-top: 1px solid white;
-    /*BUG: line needed to keep margin at 15px, which intended*/
 }
 
 .inspiration-container {
@@ -155,7 +151,6 @@ h2 {
 #nachos img {
     object-position: 0px -77px;
 }
-
 
 .inspo-dish img {
     width: 200px;
@@ -236,13 +231,10 @@ input:user-invalid {
     flex-basis: 16vW;
 }
 
-#greek-salad ul {
-    padding-inline-start: 30px;
-}
-
 .recipe ul {
     text-align: end;
     list-style-type: none;
+    padding-inline-start: 30px;
 }
 
 .recipe-image {
