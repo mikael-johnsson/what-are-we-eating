@@ -56,21 +56,26 @@ The plum color is used for text and borders. Remaining colours are background co
 ### Typography
 The site uses two fonts: "Poppins" for general text and "Madimi One" for headings. 
 
+![Image of the font used in headings, Madimi One](assets/images/readme-images/font-headings.png)
+
+
 "Madimi One" is a fun, almost brush like font. It is a quite bold font, used in uppercase to make it stand out.
 
-"Poppins" is a sans serif-font, a bit more easy to read.
-### Imagery
-Images are taken from pexels.com and Google pictures. All images are licensed to use in commercial products. 
 
+![Image of the font used in general text, Poppins](assets/images/readme-images/font-general-text.png)
+
+
+"Poppins" is a sans serif-font, easier to read.
+### Imagery
 Images to recipes and inspiration dishes are taken from above inside a round container (made round to resemble a plate). Food pictures taken from straight above is a common practice by food influencers and gives the visitor a consequent design.
 ### Wireframes 
-These where the original ideas for the three different sections:
+These were the original ideas for the three different sections:
 
 ![Image of the wireframe for the landing page](assets/images/readme-images/LANDING-PAGE.png)
 ![Image of the wireframe for the inpiration page](assets/images/readme-images/INSPO.png)
 ![Image of the wireframe for the recipe page and footer](assets/images/readme-images/RECIPES.png)
 
-It is easy to see where the initial design idea differs from the result. The content in the Inspo page used the space to inefficiently and a simpler design were used instead.
+It is easy to see where the initial design idea differs from the result. The content in the Inspo page used the space to inefficiently and a simpler design were chosen instead.
 
 The contact feature in the footer was deleted due to not contributing to the user in this particular site.
 ## Features
@@ -85,9 +90,9 @@ This site contain three different sections in a single html-page:
 
 **The Recipe page** gives the visitor quick and easy recipes with 3-5 ingredients that takes only a few miuntes to assemble. The recipe also have a feature where the visitor can sign up for the newsletter, for even more inspiration and recipes. The newsletter sign up-feature is located at the top of the recipe page. When using desktop it sticks to the top of the page when scrolling down. When using smaller screens it is revealed when clicking the newsletter-label.
 
-The header sticks at the top of the viewport and gives the visitor access to the navigation bar anywhere on the site.
+**The header** sticks at the top of the viewport and gives the visitor access to the navigation bar anywhere on the site.
 
-At the bottom the visitor find the footer which contain links to the social media accounts.
+**The footer** is found at the bottom of the site. In the footer the visitor can find links to the social media pages.
 
 The site is responsive - the design changes to be more compatible depending on which screen size the visitor uses.
 ### Future Implementations
@@ -127,21 +132,38 @@ how could someone else make a copy of the project on the local machine
 incstructions
 #### How to Clone
 incstructions
-##Testing
-link to eventuell testing.Md 
+
+## Testing
+testing 
+
 ## Credits
-text
+
 ### Code Used
-Code to create navigation bar when using smaller devices where greatly inspired by the Love Running project of Code Institute.
+The following code from Code Institutes *Love Running* project were used and adapted to create the menu bar on smaller devices:
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 ### Content    
 Recipes are taken from swedish recipe site https://www.köket.se
+
+Remaining content is written by myself.
 ### Media
-Images are taken from:
+All images are licensed to use in commercial products. 
+Images were taken from:
 
-pexels.com
-
-google.com
+https://www.pexels.com
 ### Acknowledgments
+Huge thank you to my Code institute mentor Graeme Taylor for offering excellent insights in good coding praxis.
 
 
 
