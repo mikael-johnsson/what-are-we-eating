@@ -170,6 +170,19 @@ h2 {
     margin-top: 5px;
 }
 
+#noodles_zucchini img {
+    object-position: 0px -66px;
+    
+}
+
+#falafel img {
+    object-position: 0px -46px;
+}
+
+#nachos img {
+    object-position: 0px -77px;
+}
+
 
 .inspo-dish img {
     width: 200px;
