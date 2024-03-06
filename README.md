@@ -147,7 +147,7 @@ To fork the repository:
 #### How to Clone
 - Log in (or sign up) to GitHub.
 
-Go to the repository for this project, *what-are-we-eating*.
+- Go to the repository for this project, *what-are-we-eating*.
 
 - Click *Code* and choose whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link.
 
@@ -190,7 +190,7 @@ https://www.pexels.com
 ### Acknowledgments
 Huge thank you to my Code institute mentor Graeme Taylor for offering excellent insights in good coding praxis.
 
-Thank you to Kera Cudmore for creating the template for this Readme.
+Thank you to Kera Cudmore for creating the template and standard info used in this Readme.
 
 
 
