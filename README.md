@@ -183,6 +183,13 @@ The score for a desktop device:
 
 Overall the scores are good. For a mobile device, the performance is lacking a bit. This is mostly due to some images being larger than they need to be for a mobile screen.
 
+#### WAVE
+Wave is another tool to test the accessibility of the site. This is the result after the first test:
+
+![Screenshot of WAVE score result after first test](assets/images/readme-images/wave-first-test.png)
+
+The error was that the label element in the navbar did not av any text content (only the menu icon). An Aria label was later added.
+
 ### Manual Testing
 ### BUGS
 
