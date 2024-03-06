@@ -520,7 +520,7 @@ footer a {
     }
 
     nav a {
-        font-size: 22px;
+        font-size: 19px;
     }
 
     #menu-toggle {
@@ -592,8 +592,8 @@ footer a {
         text-align: center;
     }
 
-    .ingredient-list {
-        padding-inline-start: 6px;
+    .ingredient-list ul {
+        padding-inline-start: 20px;
     }
 
     #pancakes {
