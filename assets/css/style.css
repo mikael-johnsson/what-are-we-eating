@@ -192,6 +192,42 @@ h2 {
 }
 
 /*RECIPE PAGE*/
+
+/*Newsletter*/
+
+#newsletter-checkbox, #newsletter-checkbox-label{
+    display: none;
+}
+
+.newsletter-box {
+    border: solid 2px #542644ff;
+    border-radius: 50%;
+    height: 18vW;
+    width: 18vw;
+    position: sticky;
+    top: 23vh;
+    right: 30px;
+    float: right;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#newsletter-legend {
+    background-color: #ffffff;
+    padding: 3px;
+    position: relative;
+    top: 15px;
+    width: 190px;
+}
+
+
+input:user-invalid {
+    border: 1px solid #F5666F;
+}
+
+/*RECIPES*/
 #recipe-section {
     background-color: #ddd3f5ff;
     margin: 15px 0 0 0;
@@ -231,6 +267,10 @@ h2 {
     flex-basis: 16vW;
 }
 
+#greek-salad ul {
+    padding-inline-start: 30px;
+}
+
 .recipe ul {
     text-align: end;
     list-style-type: none;
@@ -243,40 +283,20 @@ h2 {
     border-radius: 50%;
 }
 
-
-/*Newsletter*/
-
-#newsletter-checkbox, #newsletter-checkbox-label{
-    display: none;
+#omelette img {
+    object-position: -5px 2px;
 }
 
-.newsletter-box {
-    border: solid 2px #542644ff;
-    border-radius: 50%;
-    height: 18vW;
-    width: 18vw;
-    position: sticky;
-    top: 23vh;
-    right: 30px;
-    float: right;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#greek-salad img {
+    object-position: -107px -1px;
 }
 
-#newsletter-legend {
-    background-color: #ffffff;
-    padding: 3px;
-    position: relative;
-    top: 15px;
-    width: 190px;
+#mac-and-cheese img {
+    object-position: -73px 1px;
 }
 
 
-input:user-invalid {
-    border: 1px solid #F5666F;
-}
+
 
 /*footer*/
 footer {
@@ -290,6 +310,52 @@ footer {
 footer a {
     margin: 0 20px;
 }
+
+@media screen and (max-width: 1920px){
+    /*Newsletter*/
+    #newsletter-checkbox-label {
+        display: inline-block;
+        font-weight: bold;
+        font-size: large;
+        border: solid 2px #542644ff;
+        border-radius: 5%;
+        padding: 7px;
+        margin: 0 0 40px 9px;
+    }
+
+    #newsletter-checkbox {
+        display: none;
+    }
+
+    .newsletter-box {
+        display: none;
+
+    }
+
+    #newsletter-checkbox:checked~fieldset {
+        display: block;
+        position: static;
+        border: solid 2px #542644ff;
+        border-radius: 5%;
+        float: none;
+        right:auto;
+        top:40px;
+        height: 220px;
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    legend {
+        display: none;
+    }
+
+    /*Recipes*/
+
+    #recipe-container {
+        width: 100%;
+    }
+}
+    
 
 /*For tablets*/
 @media screen and (max-width: 991px) {
@@ -364,6 +430,7 @@ footer a {
     /*Inspo page*/
     .inspiration-container {
         gap: 10px;
+        padding: 20px 28px;
     }
 
     .country {
@@ -559,10 +626,16 @@ footer a {
     }
     .recipe {
         gap: 15px;
+        flex-direction: column;
     }
 
     .recipe h3 {
         flex-grow: 2;
+        text-align: center ;
+    }
+
+    .ingredient-list {
+        padding-inline-start: 6px;
     }
 
     #pancakes {
