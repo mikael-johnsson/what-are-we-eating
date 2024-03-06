@@ -159,7 +159,32 @@ To fork the repository:
 
 
 ## Testing
-testing 
+### Automated testing
+#### W3C
+I have used W3C validator to validate my HTML code and CSS code. I validated them via direct input.
+
+Both passed without errors. The warning in the CSS validation was regarding imported imported stylesheets - in this case the Google Fonts stylesheet.
+
+![Screenshot of the W3C website after it validated this sites HTML code](assets/images/readme-images/w3c-html-validation-checked.png)
+
+
+![Screenshot of the W3C website after it validated this sites CSS code](assets/images/readme-images/w3c-css-validation-checked.png)
+#### Lighthouse
+Lighthouse is a tool created by Google to test a websites: Performance, Accessibility, Best Practices, SEO and Qualification as a Progressive Web Application.
+
+It is used to give an scores on the usability of the site. The test is done for a desktop version and a mobile version.
+
+The score for a mobile device:
+![Screenshot of the Lighthouse score for a mobile device](assets/images/readme-images/lighthouse-mobile-first-test.png)
+
+
+The score for a desktop device:
+![Screenshot of the Lighthouse score for a mobile device](assets/images/readme-images/lighthouse-desktop-first-test.png)
+
+Overall the scores are good. For a mobile device, the performance is lacking a bit. This is mostly due to some images being larger than they need to be for a mobile screen.
+
+### Manual Testing
+### BUGS
 
 ## Credits
 
