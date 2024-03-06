@@ -90,7 +90,7 @@ This site contain three different sections in a single html-page:
 
 **The Recipe page** gives the visitor quick and easy recipes with 3-5 ingredients that takes only a few miuntes to assemble. The recipe also have a feature where the visitor can sign up for the newsletter, for even more inspiration and recipes. The newsletter sign up-feature is located at the top of the recipe page. When using desktop it sticks to the top of the page when scrolling down. When using smaller screens it is revealed when clicking the newsletter-label.
 
-**The header** sticks at the top of the viewport and gives the visitor access to the navigation bar anywhere on the site.
+**The header** sticks at the top of the viewport and gives the visitor access to the navigation bar anywhere on the site. When using a tablet or smaller, the menu bar hides behind a menu icon.
 
 **The footer** is found at the bottom of the site. In the footer the visitor can find links to the social media pages.
 
@@ -188,9 +188,31 @@ Wave is another tool to test the accessibility of the site. This is the result a
 
 ![Screenshot of WAVE score result after first test](assets/images/readme-images/wave-first-test.png)
 
-The error was that the label element in the navbar did not av any text content (only the menu icon). An Aria label was later added.
+The error was that the label element in the navbar did not av any text content (only the menu icon). An Aria label was later added and the error removed.
 
 ### Manual Testing
+#### Features
+Below is a table with the sites features, how it has been tested and what the outcome were.
+
+|Feature|Test case|Outcome|
+|---|---|---|
+|Header |Scroll down through site |Sticks to top of viewport |
+|Nav bar - Home |Click |Redirected to landing page |
+|Nav bar - Inspo |Click |Redirected to Inspiration page |
+|Nav bar - Recipes |Click |Redirected to Recipe page |
+|Nav bar - Icon (tablets and smaller) |Click |Menu shows |
+|Landing page | | |
+|Inspiration page | | |
+|Recipe page | | |
+|Newsletter form - hidden |Click |Newsletter form shows |
+|Newsletter form|Give the required information|Form is successfully sent|
+|Newsletter form (desktop)|Scroll down through site|The newsletter form sticks to top of viewport (under the header) inside Recipe page|
+|Newsletter form - submit button|Click|Submits form|
+|Newsletter form - reseet button|Click|Resets form|
+|Social media link - Instagram |Click |Redirected to Instagram |
+|Social media link - Youtube |Click |Redirected to Youtube |
+|Social media link - Facebook |Click |Redirected to Facebook |
+|Footer| | | |
 ### BUGS
 
 ## Credits
