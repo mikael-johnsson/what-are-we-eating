@@ -147,7 +147,7 @@ Github pages is used to deploy this site. To deploy the site yourself, follow th
 - Go to the repository for this project called [*what-are-we-eating*](https://github.com/mikael-johnsson/what-are-we-eating)
 - Click *settings*
 - In the column to the left, click *pages*
-- From the dropwdown, select *main branch* and then save
+- From the dropdown, select *main branch* and then save
 - The site is now deployed!
 ### Local Development
 
@@ -163,7 +163,7 @@ To fork the repository:
 #### How to Clone
 - Log in (or sign up) to GitHub.
 
-- Go to the repository for this project, *what-are-we-eating*.
+- Go to the repository for this project, [*what-are-we-eating*](https://github.com/mikael-johnsson/what-are-we-eating).
 
 - Click *Code* and choose whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link.
 
@@ -186,9 +186,9 @@ Both passed without errors. The warning in the CSS validation was regarding impo
 
 ![Screenshot of the W3C website after it validated this sites CSS code](assets/images/readme-images/w3c-css-validation-checked.png)
 #### Lighthouse
-Lighthouse is a tool created by Google to test a websites: Performance, Accessibility, Best Practices, SEO and Qualification as a Progressive Web Application.
+Lighthouse is a tool created by Google to test a website's: Performance, Accessibility, Best Practices, SEO and Qualification as a Progressive Web Application.
 
-It is used to give an scores on the usability of the site. The test is done for a desktop version and a mobile version.
+It gives scores on the usability of the site. The test is done for a desktop version and a mobile version.
 
 The score for a mobile device:
 ![Screenshot of the Lighthouse score for a mobile device](assets/images/readme-images/lighthouse-mobile-first-test.png)
@@ -204,7 +204,7 @@ Wave is another tool to test the accessibility of the site. This is the result a
 
 ![Screenshot of WAVE score result after first test](assets/images/readme-images/wave-first-test.png)
 
-The error was that the label element in the navbar did not av any text content (only the menu icon). An Aria label was later added and the error removed.
+The error was that the label element in the navbar did not av any text content (only the menu icon). An Aria label was later added and the error was corrected.
 
 ### Manual Testing
 #### Features
