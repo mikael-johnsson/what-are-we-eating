@@ -213,7 +213,23 @@ Below is a table with the sites features, how it has been tested and what the ou
 |Social media link - Youtube |Click |Redirected to Youtube |
 |Social media link - Facebook |Click |Redirected to Facebook |
 |Footer| | | |
-### BUGS
+
+#### Screen size compability
+Below is a table with different devices and the outcomes when visiting the site using different screen sizes.
+
+|Device|Site responsive <768px|Site responsive 768px to 991px|Site responsive >991px| Renders as expected |
+|---|---|---|---|---|
+|Galaxy Fold |Good |N/A |N/A |Good |
+
+#### Browser compability
+Below is a table with different browsers, how the site appears on them and how the sites responsiveness is on them.
+
+|Browser|Intended appearance|Intended responsiveness|
+|---|---|---|
+|Chrome |Good |Good |
+|Safari |Good |Good |
+|Edge |Good |Good |
+|Firefox |Good |Good |
 
 ## Credits
 
