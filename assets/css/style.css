@@ -202,7 +202,7 @@ input:user-invalid {
     background-color: #ddd3f5;
     margin: 15px 0 0 0;
     padding: 25px;
-    height: 1800px;
+    height: fit-content;
 }
 
 #recipe-container {
