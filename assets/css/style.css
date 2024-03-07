@@ -342,7 +342,7 @@ footer a {
         display: block;
     }
 
-    /*The following code (until Landing page comment) where taken from Code Institutes *Love Running* project 
+    /*The following code (until Landing page comment) where taken from Code Institutes Love Running project 
     and later on adapted to this project.*/
 
     #menu-toggle {
@@ -523,6 +523,8 @@ footer a {
         font-size: 19px;
     }
 
+    /*The following code (until Landing page comment) where taken from Code Institutes Love Running project 
+    and later on adapted to this project.*/
     #menu-toggle {
         display: none;
     }
