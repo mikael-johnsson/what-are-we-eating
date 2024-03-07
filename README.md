@@ -200,10 +200,12 @@ Lighthouse is a tool created by Google to test a website's: Performance, Accessi
 It gives scores on the usability of the site. The test is done for a desktop version and a mobile version.
 
 **The score for a mobile device:**
+
 ![Screenshot of the Lighthouse score for a mobile device](assets/images/readme-images/lighthouse-mobile-first-test.png)
 
 
 **The score for a desktop device:**
+
 ![Screenshot of the Lighthouse score for a mobile device](assets/images/readme-images/lighthouse-desktop-first-test.png)
 
 Overall the scores are good. For a mobile device, the performance is lacking a bit. This is mostly due to some images being larger than they need to be for a mobile screen.
