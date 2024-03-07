@@ -20,7 +20,7 @@ Find the link to the site [here](https://mikael-johnsson.github.io/what-are-we-e
   - [Colour Scheme](#colour-scheme)
   - [Typography](#typography)
   - [Imagery](#imagery)
-  - [Wireframes](wireframes)
+  - [Wireframes](#wireframes)
 - [Features](#features)
   - [General Features on Each page](#general-features-on-each-page)
   - [Future Implementations](#future-implementations)
@@ -84,6 +84,11 @@ These were the original ideas for the three different sections:
 It is easy to see where the initial design idea differs from the result. The content in the Inspo page used the space to inefficiently and a simpler design were chosen instead.
 
 The contact feature in the footer was deleted due to not contributing to the user in this particular site.
+
+### Other
+One unfortunate design feature is the empty space between the h2-headings and the page top in the inspiration page and the recipe page. This is required to take the visitor to the correct place on the site when clicking the links in the menu (since the header is sticking to the top of the viewport).
+
+Other solutions, like hiding a div in the page above and addressing the link there, where discarded.
 ## Features
 This site contain three different sections in a single html-page:
 - Landing page
@@ -91,6 +96,8 @@ This site contain three different sections in a single html-page:
 - Recipe page
 ### General Features on each page
 **The header** sticks at the top of the viewport and gives the visitor access to the navigation bar anywhere on the site. When using a tablet or smaller, the menu bar hides behind a menu icon.
+
+The h1-heading changes the amount of rows it is dispensed on depending on which device you are using. It is designed to make it fit better on smaller / larger screens.
 
 ![Screenshot of the sites header](assets/images/readme-images/header.png)
 
@@ -200,11 +207,11 @@ The score for a desktop device:
 Overall the scores are good. For a mobile device, the performance is lacking a bit. This is mostly due to some images being larger than they need to be for a mobile screen.
 
 #### WAVE
-Wave is another tool to test the accessibility of the site. This is the result after the first test:
+Wave is another tool to test the accessibility of the site. This is the result:
 
-![Screenshot of WAVE score result after first test](assets/images/readme-images/wave-first-test.png)
+![Screenshot of WAVE score result after first test](assets/images/readme-images/wave-second-test.png)
 
-The error was that the label element in the navbar did not av any text content (only the menu icon). An Aria label was later added and the error was corrected.
+After the first test there was an error. It was that the label element in the navbar did not av any text content (only the menu icon). An Aria label was later added and the error was corrected.
 
 ### Manual Testing
 #### Features
