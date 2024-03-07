@@ -142,6 +142,8 @@ Git - For version control
 
 Github - To save & store files and deployment
 
+Gitpod - IDE used to write the code
+
 Font Awesome - For icons used in header and footer
 
 Balsamiq - For wireframes
