@@ -78,8 +78,11 @@ Images to recipes and inspiration dishes are taken from above inside a round con
 These were the original ideas for the three different sections:
 
 ![Image of the wireframe for the landing page](assets/images/readme-images/landing-page-wireframe.png)
+***
 ![Image of the wireframe for the inpiration page](assets/images/readme-images/inspo-wireframe.png)
+***
 ![Image of the wireframe for the recipe page and footer](assets/images/readme-images/recipe-page-wrireframe.png)
+***
 
 It is easy to see where the initial design idea differs from the result. The content in the Inspo page used the space to inefficiently and a simpler design were chosen instead.
 
