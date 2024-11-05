@@ -44,7 +44,8 @@ nav {
     display: flex;
     justify-content: flex-end;
     gap: 5em;
-    padding-right: 60px;
+    padding-right: 45px;
+
 }
 
 #menu-toggle {
@@ -58,7 +59,7 @@ nav {
 nav ul {
     list-style-type: none;
     display: flex;
-    gap: 6rem;
+    gap: 1.8rem;
 }
 
 nav li a {
@@ -541,7 +542,6 @@ footer a {
         height: fit-content;
         padding: 10px;
         text-align: center;
-        margin-top: 15px;
     }
 
     #landing-section ul {
@@ -558,7 +558,6 @@ footer a {
     /*Inspo page*/
     #inspo-section {
         gap: 23px;
-        margin-top: 10px;
     }
 
     #inspo-section h2 {
@@ -577,10 +576,6 @@ footer a {
     }
 
     /*Recipes*/
-    #recipe-section {
-        margin-top: 10px;
-    }
-
     #recipe-section h2 {
         font-size: xx-large;
     }
@@ -606,7 +601,6 @@ footer a {
     /*Footer*/
     footer {
         height: fit-content;
-        margin-top: 10px;
     }
 
     footer a {
