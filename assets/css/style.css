@@ -573,6 +573,31 @@ footer a {
         padding-top: 140px;
     }
 
+    /*Inspo carousel*/
+    .carousel {
+        width: 90%;
+        margin: auto;
+    }
+
+    .carousel-item img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .carousel-caption {
+        display: block !important;
+        bottom: 0;
+        margin-bottom: 5px;
+        padding: 0;
+        color: #542644;
+        background-color: #ddd3f5;
+        opacity: 0.8;
+    }
+
+    .carousel-caption h5 {
+        margin-bottom: 0.1rem;
+    }
 
     #inspo-section h3 {
         margin-bottom: -5px;
