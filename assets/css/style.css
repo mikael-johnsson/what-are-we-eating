@@ -25,14 +25,14 @@ header {
     align-items: center;
     background-color: #F5666F;
     height: fit-content;
-    padding-left: 40px;
+    padding: 20px 30px 20px 20px;
     position: sticky;
     top: 0px;
     z-index: 2;
 }
 
 h1 {
-    flex-basis: 50%;
+    flex-basis: 70%;
     font-size: 3em;
     align-self: center;
     text-align: left;
@@ -44,8 +44,6 @@ nav {
     display: flex;
     justify-content: flex-end;
     gap: 5em;
-    padding-right: 45px;
-
 }
 
 #menu-toggle {
@@ -275,7 +273,6 @@ footer a {
     /*Header*/
     header {
         height: fit-content;
-        padding: 25px;
     }
 
     /*Newsletter*/
@@ -325,7 +322,7 @@ footer a {
 
     /*Header*/
     h1 {
-        font-size: 2.3rem;
+        font-size: 2.7rem;
     }
 
     nav {
@@ -354,7 +351,7 @@ footer a {
     }
 
     #menu-toggle:checked~nav {
-        display: block;
+        display: flex;
     }
 
     #menu-toggle:checked~label {
@@ -496,11 +493,11 @@ footer a {
 
     /*Header*/
     header {
-        padding-left: 15px;
+        padding: 8px 0 0 15px;
     }
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     nav {
@@ -529,12 +526,13 @@ footer a {
 
     #menu-toggle-label {
         font-size: 2.8rem;
-        padding: 1em;
+        padding: 0.4em 0.4em 0.4em 0;
         display: block;
     }
 
     #menu-toggle:checked~nav {
-        display: block;
+        display: flex;
+        padding-top: 5px;
     }
 
     /*Landing page*/
