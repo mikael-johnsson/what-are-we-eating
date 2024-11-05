@@ -31,16 +31,13 @@ header {
     z-index: 2;
 }
 
-
 h1 {
     flex-basis: 50%;
     font-size: 3em;
     align-self: center;
-    margin: 0;
     text-align: left;
     padding-left: 15px;
 }
-
 
 nav {
     flex-basis: 50%;
@@ -88,14 +85,12 @@ h2 {
     justify-content: space-evenly;
     flex-direction: row;
     height: fit-content;
-    margin: 0 0 0 0;
     padding: 30px 0;
     background: #e4c139;
 }
 
 #landing-section h2 {
     text-align: left;
-    
 }
 
 #landing-img {
@@ -114,7 +109,6 @@ h2 {
 
 /*INSPO PAGE*/
 #inspo-section {
-    margin: 0 0 0 0;
     background: #94d0c2;
 }
 
@@ -127,8 +121,6 @@ h2 {
 
 #inspo-section h2 {
     padding-top: 278px;
-    margin-top: 0;
-
 }
 
 .country {
@@ -201,7 +193,6 @@ input:user-invalid {
 /*RECIPES*/
 #recipe-section {
     background-color: #ddd3f5;
-    margin: 0 0 0 0;
     padding: 25px;
     height: fit-content;
 }
@@ -266,7 +257,6 @@ footer {
     background-color: #F5666F;
     text-align: center;
     padding-top: 40px;
-    margin: 15px 0 0 0;
 }
 
 footer a {
@@ -379,7 +369,6 @@ footer a {
     #landing-img {
         width: 300px;
         height: 300px;
-
     }
 
     #landing-section ul {
@@ -526,6 +515,7 @@ footer a {
 
     /*The following code (until Landing page comment) where taken from Code Institutes Love Running project 
     and later on adapted to this project.*/
+
     #menu-toggle {
         display: none;
     }
