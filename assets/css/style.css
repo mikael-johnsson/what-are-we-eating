@@ -24,7 +24,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #F5666F;
-    height: 22vh;
+    height: fit-content;
     padding-left: 40px;
     position: sticky;
     top: 0px;
@@ -34,10 +34,11 @@ header {
 
 h1 {
     flex-basis: 50%;
-    font-size: 3.5em;
+    font-size: 3em;
     align-self: center;
     margin: 0;
-    text-align: center;
+    text-align: left;
+    padding-left: 15px;
 }
 
 
@@ -87,7 +88,7 @@ h2 {
     justify-content: space-evenly;
     flex-direction: row;
     height: fit-content;
-    margin: 15px 0 0 0;
+    margin: 0 0 0 0;
     padding: 30px 0;
     background: #e4c139;
 }
@@ -113,7 +114,7 @@ h2 {
 
 /*INSPO PAGE*/
 #inspo-section {
-    margin: 15px 0 0 0;
+    margin: 0 0 0 0;
     background: #94d0c2;
 }
 
@@ -200,7 +201,7 @@ input:user-invalid {
 /*RECIPES*/
 #recipe-section {
     background-color: #ddd3f5;
-    margin: 15px 0 0 0;
+    margin: 0 0 0 0;
     padding: 25px;
     height: fit-content;
 }
