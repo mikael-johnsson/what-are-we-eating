@@ -9,7 +9,7 @@ assignees: ''
 
 As a **user**. I **want to be able**. so that I can **see this**.
 
-[] AC1
-[] AC2
-[] AC3
-[] AC4
+- [ ] AC1
+- [ ] AC2
+- [ ] AC3
+- [ ] AC4
