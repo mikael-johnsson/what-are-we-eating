@@ -61,6 +61,12 @@ nav ul {
     gap: 6rem;
 }
 
+nav li a {
+   display: flex;
+   align-items: center;
+   gap: 3px;
+}
+
 a {
     list-style: none;
     font-size: xx-large;
@@ -333,7 +339,7 @@ footer a {
         display: block;
     }
 
-    /*The following code (until Landing page comment) where taken from Code Institutes Love Running project 
+    /*The following code (until Landing page comment) was taken from Code Institutes Love Running project 
     and later on adapted to this project.*/
 
     #menu-toggle {
