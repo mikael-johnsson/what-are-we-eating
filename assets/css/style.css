@@ -542,8 +542,14 @@ footer a {
         text-align: center;
     }
 
+    #landing-section h2 {
+        font-size: large;
+        margin: 8px 0;
+        padding: 0 50px;    
+    }
+
     #landing-section ul {
-        text-align: center;
+        text-align: left;
         padding: 0 10px;
     }
 
@@ -553,6 +559,10 @@ footer a {
         left: 0;
     }
 
+    #landing-text {
+        text-align: left;
+    }
+
     /*Inspo page*/
     #inspo-section {
         gap: 23px;
@@ -560,7 +570,9 @@ footer a {
 
     #inspo-section h2 {
         font-size: xx-large;
+        padding-top: 140px;
     }
+
 
     #inspo-section h3 {
         margin-bottom: -5px;
@@ -576,6 +588,7 @@ footer a {
     /*Recipes*/
     #recipe-section h2 {
         font-size: xx-large;
+        padding-top: 110px;
     }
 
     .recipe {
@@ -599,6 +612,10 @@ footer a {
     /*Footer*/
     footer {
         height: fit-content;
+    }
+
+    footer h3 {
+        font-size: 1em;
     }
 
     footer a {
