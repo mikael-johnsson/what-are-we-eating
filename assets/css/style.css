@@ -586,7 +586,6 @@ footer a {
     }
 
     .carousel-caption {
-        display: block !important;
         bottom: 0;
         margin-bottom: 5px;
         padding: 0;
