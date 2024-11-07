@@ -238,6 +238,14 @@ input:user-invalid {
     border: 1px solid #F5666F;
 }
 
+label {
+    margin-top: 10px;
+}
+
+select {
+    margin-bottom: 10px;
+}
+
 /*RECIPES*/
 #recipe-section {
     background-color: #ddd3f5;
