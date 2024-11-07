@@ -244,16 +244,19 @@ input:user-invalid {
     width: 72vw;
     gap: 10px;
 }
+.row {
+    column-gap: 30px;
+}
 
+/* Cards */
 .card {
     min-width: 270px;
-    max-width: 450px;
+    max-width: 415px;
     width: 70%;
     margin: 0 auto 20px auto;
 
 }
 
-/* Cards */
 .card-text {
     display: none;
 }
