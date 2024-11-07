@@ -245,6 +245,17 @@ input:user-invalid {
     gap: 10px;
 }
 
+.card {
+    min-width: 270px;
+    max-width: 450px;
+    width: 70%;
+    margin: auto;
+}
+
+.btn {
+    color: #ffffff !important;
+}
+
 .recipe {
     flex-grow: 1;
     display: flex;
@@ -707,6 +718,11 @@ footer a {
     #recipe-section h2 {
         font-size: xx-large;
         padding-top: 110px;
+    }
+
+    /* Cards */
+    .card-text {
+        display: none;
     }
 
     .recipe {
