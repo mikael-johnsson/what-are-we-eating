@@ -253,10 +253,10 @@ input:user-invalid {
 
 }
 
-/* .btn-primary {
-    background-color: #ddd3f5;
-    color: #542644;
-} */
+/* Cards */
+.card-text {
+    display: none;
+}
 
 .btn-primary {
     --bs-btn-font-weight: 600;
@@ -408,6 +408,7 @@ footer a {
     #recipe-container {
         width: 100%;
     }
+
 }
 
 /*For tablets*/
@@ -735,11 +736,6 @@ footer a {
     #recipe-section h2 {
         font-size: xx-large;
         padding-top: 110px;
-    }
-
-    /* Cards */
-    .card-text {
-        display: none;
     }
 
     .recipe {
