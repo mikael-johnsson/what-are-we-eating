@@ -257,6 +257,11 @@ input:user-invalid {
 
 }
 
+.card-img-top {
+    max-height: 220px;
+    padding-top: 8px;
+}
+
 .card-text {
     display: none;
 }
