@@ -249,12 +249,29 @@ input:user-invalid {
     min-width: 270px;
     max-width: 450px;
     width: 70%;
-    margin: auto;
+    margin: 0 auto 20px auto;
+
 }
 
-.btn {
-    color: #ffffff !important;
-}
+/* .btn-primary {
+    background-color: #ddd3f5;
+    color: #542644;
+} */
+
+.btn-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: #542644;
+    --bs-btn-bg: #ddd3f5;
+    --bs-btn-border-color: #ddd3f5;
+    --bs-btn-hover-color: #542644;
+    --bs-btn-hover-bg: #ddd3f5;
+    --bs-btn-hover-border-color: #ddd3f5;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: #3f1a32;
+    --bs-btn-active-bg: #ddd3f5;
+    --bs-btn-active-border-color: #542644;
+  }
+
 
 .recipe {
     flex-grow: 1;
