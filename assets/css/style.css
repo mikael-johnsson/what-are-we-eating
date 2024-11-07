@@ -131,7 +131,7 @@ h2 {
 
 /*Inspo carousel*/
 .cuisine-heading {
-    font-size: xxx-large;
+    font-size: xx-large;
     margin: auto 30%;
     text-align: center;
 }
@@ -370,11 +370,7 @@ footer a {
     }
 
      /*Inspo carousel*/
-    .cuisine-heading {
-        font-size: xxx-large;
-    }
-
-     .carousel {
+    .carousel {
         width: 70%;
         margin: auto;
     }
@@ -394,6 +390,10 @@ footer a {
         background-color: #ddd3f5;
         opacity: 0.8;
     }
+
+    .carousel-caption h5 {
+        font-size: x-large;
+    }  
 
 
     /*Recipes*/
@@ -501,7 +501,7 @@ footer a {
         color: #542644;
         background-color: #ddd3f5;
         opacity: 0.8;
-    }
+    } 
 
     .country {
         flex-basis: 300px;
@@ -694,7 +694,7 @@ footer a {
 
     /*Inspo carousel*/
     .cuisine-heading {
-        font-size: xx-large;
+        font-size: x-large;
     }
     .carousel {
         width: 90%;
