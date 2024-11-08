@@ -7,6 +7,8 @@ In an easy way the visitor can instantly get either top inspiration to all kinds
 
 Find the link to the site [here](https://mikael-johnsson.github.io/what-are-we-eating/)
 
+This site is a part of the Code Institute Fullstack Software Developer program - portfolio project 1.
+
 
 ![Image of the site depicted on different devices](assets/images/readme-images/responsive-site.png)
 
@@ -71,9 +73,9 @@ The site uses two fonts: "Poppins" for general text and "Madimi One" for heading
 
 "Poppins" is a sans serif-font, easier to read.
 ### Imagery
-Images to recipes and inspiration dishes are taken from above inside a round container (made round to resemble a plate). Food pictures taken from straight above is a common practice by food influencers and gives the visitor a consequent design.
+Images to recipes and inspiration dishes are taken from above. Food pictures taken from straight above is a common practice by food influencers and generates a consequent design of the site.
 
-![Screenshot of some of the images on the site](assets/images/readme-images/images.png)
+![Screenshot of some of the images on the site](assets\images\readme-images\RM_inspo_carousel.jpg)
 ### Wireframes 
 These were the original ideas for the three different sections:
 
@@ -84,7 +86,7 @@ These were the original ideas for the three different sections:
 ![Image of the wireframe for the recipe page and footer](assets/images/readme-images/recipe-page-wrireframe.png)
 ***
 
-It is easy to see where the initial design idea differs from the result. The content in the Inspo page used the space to inefficiently and a simpler design were chosen instead.
+It is easy to see where the initial design idea differs from the result. The bootstrap carousel was implemented to not make the site to cluttered and to allow the user to focus on on dish at a time.
 
 The contact feature in the footer was deleted due to not contributing to the user in this particular site.
 
@@ -92,6 +94,7 @@ The contact feature in the footer was deleted due to not contributing to the use
 One unfortunate design feature is the empty space between the h2-headings and the page top in the inspiration page and the recipe page. This is required to take the visitor to the correct place on the site when clicking the links in the menu (since the header is sticking to the top of the viewport).
 
 Other solutions, like hiding a div in the page above and addressing the link there, where discarded.
+
 ## Features
 This site contain three different sections in a single html-page:
 - Landing page
@@ -102,21 +105,26 @@ This site contain three different sections in a single html-page:
 
 The h1-heading changes the amount of rows it is dispensed on depending on which device you are using. It is designed to make it fit better on smaller / larger screens.
 
-![Screenshot of the sites header](assets/images/readme-images/header.png)
+![Screenshot of the sites header](assets\images\readme-images\RM_header_fullscreen.jpg)
 
 **The Landing page** gives the visitor a short summary of what the page intend to do.
 
 ![Screenshot of the sites landing page](assets/images/readme-images/landing-page.png)
 
-**The Inspiration page** gives the visitor inspiring pictures of delicious food with the names of the dishes, categorized under cuisine.
+**The Inspiration page** gives the visitor inspiring pictures of delicious food with the names of the dishes, categorized under cuisine. The pictures are gathered in a bootstrap carousel to make it easy for the user to slide between images.
 
-![Screenshot of the sites inspiration page](assets/images/readme-images/inspo-page.png)
+![Screenshot of the sites inspiration page](assets\images\readme-images\RM_inspo_carousel.jpg)
 
-**The Recipe page** gives the visitor quick and easy recipes with 3-5 ingredients that takes only a few miuntes to assemble. The recipe also have a feature where the visitor can sign up for the newsletter, for even more inspiration and recipes. The newsletter sign up-feature is located at the top of the recipe page. When using desktop it sticks to the top of the page when scrolling down. When using smaller screens it is revealed when clicking the newsletter-label.
+**The Recipe page** gives the visitor quick and easy recipes with 3-5 ingredients that takes only a few miuntes to assemble. The recipes are collapsed into cards, so at a first look the user only sees an image and the name of the dish. To show the full recipe, the user can click "Show Recipe". The button text then change to "Hide Recipe", with the inverted function. The cards system has a fault. When a recipe is opened, the rest of the cards on the same row adjusts their height to the clicked recipe. This will be changed in a future sprint.
 
-![Screenshot of the sites recipe page](assets/images/readme-images/recipe-page.png)
+The recipe page also has a newsletter sign up feature. At the bottom of the page there is a button that says "Want the newsletter?". Clicking it opens a modal with a form, allowing the user to sign up for the newsletter. The newsletter does not exist, and the user is taken to a page showing what information was submitted.
 
-**The footer** is found at the bottom of the site. In the footer the visitor can find links to the social media pages.
+![Screenshot of the sites recipe page with the cards closed](assets\images\readme-images\RM_recipes_cards_closed.jpg)
+![Screenshot of the sites recipe page with the cards open](assets\images\readme-images\RM_recipes_cards_open.jpg)
+![Screenshot of the sites newsletter button](assets\images\readme-images\RM_newsletter_closed.jpg)
+![Screenshot of the sites newsletter sign up form](assets\images\readme-images\RM_newsletter_open.jpg)
+
+**The footer** is found at the bottom of the site. In the footer the visitor can find links to the social media pages. The social media pages does not exist, and the links open a new tab of the home page of that social media site.
 
 ![Screenshot of the sites footer](assets/images/readme-images/footer.png)
 
@@ -145,11 +153,13 @@ Git - For version control
 
 Github - To save & store files and deployment
 
-Gitpod - IDE used to write the code
+Gitpod & Visual Studio Code - IDE used to write the code
 
 Font Awesome - For icons used in header and footer
 
 Balsamiq - For wireframes
+
+Bootstrap - For carousel and modal
 ## Deployment & Local Development
 
 ### Deployment
@@ -235,7 +245,7 @@ Below is a table with the sites features, how it has been tested and what the ou
 |Newsletter form|Give the required information|Form is successfully sent|
 |Newsletter form (desktop)|Scroll down through site|The newsletter form sticks to top of viewport (under the header) inside Recipe page|
 |Newsletter form - submit button|Click|Submits form|
-|Newsletter form - reseet button|Click|Resets form|
+|Newsletter form - reset button|Click|Resets form|
 |Social media link - Instagram |Click |Redirected to Instagram |
 |Social media link - Youtube |Click |Redirected to Youtube |
 |Social media link - Facebook |Click |Redirected to Facebook |
@@ -285,7 +295,6 @@ The following code where taken from Code Institutes *Love Running* project and l
     }
  ```
     
-
 
 ### Content    
 Recipes are taken from swedish recipe site https://www.köket.se
